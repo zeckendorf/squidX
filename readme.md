@@ -18,7 +18,6 @@ co-op, stay alive as long as you can to rack up the high score.
 
 ### Screenshots
 
-Menu
 ![Menu Screen](https://i.imgur.com/wSChBhJ.png)
 ![Gameplay](https://i.imgur.com/RsvWSDm.png)
 ![Game Over](https://i.imgur.com/jAoZf1Y.png)
