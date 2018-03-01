@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{5A9E49A9-A851-4842-BF26-F93326AF8E96}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>squidX</RootNamespace>
+    <AssemblyName>squidX</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MonoGamePlatform>DesktopGL</MonoGamePlatform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SquidGame.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="SpriteElement.cs" />
+    <Compile Include="Shape.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="HealthBar.cs" />
+    <Compile Include="Powerups.cs" />
+    <Compile Include="ParticleEngine.cs" />
+    <Compile Include="Bullet.cs" />
+    <Compile Include="TurretEnemy.cs" />
+    <Compile Include="WheelEnemy.cs" />
+    <Compile Include="SpringGrid.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Starfield.cs" />
+    <Compile Include="StarEnemy.cs" />
+    <Compile Include="CircleEnemy.cs" />
+    <Compile Include="DuoEnemy.cs" />
+    <Compile Include="BlueShip.cs" />
+    <Compile Include="TriangleShip.cs" />
+    <Compile Include="Menu-old.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="Icon.png" />
+    <None Include="Content\150510_drum_and_blues_1.mp3" />
+    <None Include="Content\Circle Bullet.png" />
+    <None Include="Content\Circle Enemy.png" />
+    <None Include="Content\Duo Bullet.png" />
+    <None Include="Content\Duo Enemy.png" />
+    <None Include="Content\Energy Deflector.png" />
+    <None Include="Content\Flare powerup.png" />
+    <None Include="Content\Health powerup.png" />
+    <None Include="Content\Magnet powerup.png" />
+    <None Include="Content\SpringGrid.fx" />
+    <None Include="Content\TriangleBullet.png" />
+    <None Include="Content\TriangleEnemy.png" />
+    <None Include="Content\WheelBullet.png" />
+    <None Include="Content\WheelEnemy.png" />
+    <None Include="Content\WheelEnemyRing.png" />
+    <None Include="Content\blueblocker.png" />
+    <None Include="Content\bluebullet.png" />
+    <None Include="Content\blueship.png" />
+    <None Include="Content\border.png" />
+    <None Include="Content\bottomOutline.png" />
+    <None Include="Content\bottomOutlineDark.png" />
+    <None Include="Content\credits.png" />
+    <None Include="Content\enemy.png" />
+    <None Include="Content\explosion line 4.png" />
+    <None Include="Content\explosion line.png" />
+    <None Include="Content\explosion.png" />
+    <None Include="Content\flare.png" />
+    <None Include="Content\fontBig.spritefont" />
+    <None Include="Content\fontMenu.spritefont" />
+    <None Include="Content\fontRegular.spritefont" />
+    <None Include="Content\fontSmall.spriteFont" />
+    <None Include="Content\grayMPship.png" />
+    <None Include="Content\health orb.png" />
+    <None Include="Content\horizontal screen line dark.png" />
+    <None Include="Content\horizontal screen line.png" />
+    <None Include="Content\instruction.png" />
+    <None Include="Content\intro.wmv" />
+    <None Include="Content\line.png" />
+    <None Include="Content\logo symbol transparent.png" />
+    <None Include="Content\menu.mp3" />
+    <None Include="Content\menuOver.wav" />
+    <None Include="Content\particle.png" />
+    <None Include="Content\player.png" />
+    <None Include="Content\player1.png" />
+    <None Include="Content\player2.png" />
+    <None Include="Content\player3.png" />
+    <None Include="Content\shortLine.png" />
+    <None Include="Content\shortLineDark.png" />
+    <None Include="Content\star bullet.png" />
+    <None Include="Content\star enemy.png" />
+    <None Include="Content\star glow.png" />
+    <None Include="Content\tinyHalfLine.png" />
+    <None Include="Content\tinyHalfLineDark.png" />
+    <None Include="Content\tinyLine.png" />
+    <None Include="Content\tinyLineDark.png" />
+    <None Include="Content\turretbullet.png" />
+    <None Include="Content\thrust textures\thrust turbulence 1.png" />
+    <None Include="Content\thrust textures\thrust turbulence 2.png" />
+    <None Include="Content\thrust textures\thrust turbulence 3.png" />
+    <None Include="Content\thrust textures\thrust turbulence 4.png" />
+    <None Include="Content\thrust textures\thrust turbulence 5.png" />
+    <None Include="Content\squid 411.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="x64\libopenal.so.1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x64\soft_oal.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x64\libSDL2-2.0.so.0">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x64\SDL2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\libopenal.so.1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\soft_oal.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\libSDL2-2.0.so.0">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\SDL2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MonoGame.Framework.dll.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libopenal.1.dylib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libSDL2-2.0.0.dylib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+</Project>

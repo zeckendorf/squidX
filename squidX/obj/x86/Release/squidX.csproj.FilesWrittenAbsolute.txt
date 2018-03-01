@@ -1,0 +1,81 @@
+/home/sam/Projects/squidX/squidX/obj/x86/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/sam/Projects/squidX/squidX/obj/x86/Release/squidX.Icon.ico
+/home/sam/Projects/squidX/squidX/bin/Release/x64/libopenal.so.1
+/home/sam/Projects/squidX/squidX/bin/Release/x64/soft_oal.dll
+/home/sam/Projects/squidX/squidX/bin/Release/x64/libSDL2-2.0.so.0
+/home/sam/Projects/squidX/squidX/bin/Release/x64/SDL2.dll
+/home/sam/Projects/squidX/squidX/bin/Release/x86/libopenal.so.1
+/home/sam/Projects/squidX/squidX/bin/Release/x86/soft_oal.dll
+/home/sam/Projects/squidX/squidX/bin/Release/x86/libSDL2-2.0.so.0
+/home/sam/Projects/squidX/squidX/bin/Release/x86/SDL2.dll
+/home/sam/Projects/squidX/squidX/bin/Release/MonoGame.Framework.dll.config
+/home/sam/Projects/squidX/squidX/bin/Release/libopenal.1.dylib
+/home/sam/Projects/squidX/squidX/bin/Release/libSDL2-2.0.0.dylib
+/home/sam/Projects/squidX/squidX/bin/Release/Content/thrust textures/thrust turbulence 1.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/thrust textures/thrust turbulence 2.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/thrust textures/thrust turbulence 3.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/thrust textures/thrust turbulence 4.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/thrust textures/thrust turbulence 5.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/150510_drum_and_blues_1.ogg
+/home/sam/Projects/squidX/squidX/bin/Release/Content/150510_drum_and_blues_1.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/Circle Bullet.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/Circle Enemy.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/Duo Bullet.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/Duo Enemy.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/Energy Deflector.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/Flare powerup.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/Health powerup.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/Magnet powerup.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/TriangleBullet.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/TriangleEnemy.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/WheelBullet.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/WheelEnemy.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/WheelEnemyRing.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/blueblocker.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/bluebullet.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/blueship.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/border.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/bottomOutline.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/bottomOutlineDark.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/credits.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/enemy.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/explosion line 4.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/explosion line.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/explosion.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/flare.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/fontBig.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/fontMenu.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/fontRegular.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/fontSmall.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/grayMPship.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/health orb.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/horizontal screen line dark.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/horizontal screen line.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/instruction.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/intro.wmv
+/home/sam/Projects/squidX/squidX/bin/Release/Content/intro.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/line.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/logo symbol transparent.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/menu.ogg
+/home/sam/Projects/squidX/squidX/bin/Release/Content/menu.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/menuOver.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/particle.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/player.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/player1.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/player2.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/player3.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/shortLine.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/shortLineDark.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/star bullet.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/star enemy.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/star glow.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/tinyHalfLine.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/tinyHalfLineDark.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/tinyLine.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/tinyLineDark.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/Content/turretbullet.xnb
+/home/sam/Projects/squidX/squidX/bin/Release/squidX.exe
+/home/sam/Projects/squidX/squidX/obj/x86/Release/squidX.exe
+/home/sam/Projects/squidX/squidX/bin/Release/MonoGame.Framework.dll
+/home/sam/Projects/squidX/squidX/bin/Release/Content/squid 411.ogg
+/home/sam/Projects/squidX/squidX/bin/Release/Content/squid 411.xnb

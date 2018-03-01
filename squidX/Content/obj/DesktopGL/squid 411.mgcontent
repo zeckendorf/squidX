@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>/home/sam/Projects/squidX/squidX/Content/squid 411.mp3</SourceFile>
+  <SourceTime>2018-02-27T18:55:58-08:00</SourceTime>
+  <DestFile>/home/sam/Projects/squidX/squidX/Content/bin/DesktopGL/squid 411.xnb</DestFile>
+  <DestTime>2018-02-27T19:01:59-08:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2018-02-22T23:52:35-08:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2018-02-22T23:52:35-08:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>/home/sam/Projects/squidX/squidX/Content/bin/DesktopGL/squid 411.ogg</string>
+  </BuildOutput>
+</PipelineBuildEvent>

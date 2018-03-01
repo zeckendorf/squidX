@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{5A9E49A9-A851-4842-BF26-F93326AF8E96}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="squidX/Program.cs">
+    <Files>
+      <File FileName="squidX/Game1.cs" Line="1" Column="1" />
+      <File FileName="squidX/Program.cs" Line="27" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.squidX PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

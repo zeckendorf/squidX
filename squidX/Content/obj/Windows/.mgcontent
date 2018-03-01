@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>/home/sam/Projects/squidX/squidX/Content/WheelEnemyRing.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/WheelEnemy.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/WheelBullet.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/turretbullet.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/TriangleEnemy.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/TriangleBullet.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/tinyLineDark.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/tinyLine.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/tinyHalfLineDark.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/tinyHalfLine.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/star glow.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/star enemy.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/star bullet.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/shortLineDark.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/shortLine.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/player3.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/player2.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/player1.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/player.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/particle.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/menuOver.wav</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/menu.mp3</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/Magnet powerup.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/logo symbol transparent.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/line.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/intro.wmv</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/instruction.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/horizontal screen line dark.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/horizontal screen line.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/Health powerup.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/health orb.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/grayMPship.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/fontSmall.spriteFont</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/fontRegular.spritefont</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/fontMenu.spritefont</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/fontBig.spritefont</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/Flare powerup.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/flare.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/explosion line 4.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/explosion line.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/explosion.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/Energy Deflector.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/enemy.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/Duo Enemy.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/Duo Bullet.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/credits.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/thrust textures/thrust turbulence 1.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/thrust textures/thrust turbulence 2.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/thrust textures/thrust turbulence 3.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/thrust textures/thrust turbulence 4.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/thrust textures/thrust turbulence 5.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/Circle Enemy.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/Circle Bullet.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/bottomOutlineDark.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/bottomOutline.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/border.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/blueship.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/bluebullet.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/150510_drum_and_blues_1.mp3</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/blueblocker.png</File>
+    <File>/home/sam/Projects/squidX/squidX/Content/squid 411.mp3</File>
+  </SourceFiles>
+</SourceFileCollection>

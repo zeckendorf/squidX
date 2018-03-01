@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{5A9E49A9-A851-4842-BF26-F93326AF8E96}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Menu.cs">
+    <Files>
+      <File FileName="SquidGame.cs" Line="295" Column="7" />
+      <File FileName="Menu.cs" Line="259" Column="1" />
+      <File FileName="Player.cs" Line="53" Column="25" />
+      <File FileName="HealthBar.cs" Line="42" Column="224" />
+      <File FileName="Powerups.cs" Line="70" Column="123" />
+      <File FileName="Game.cs" Line="782" Column="46" />
+      <File FileName="Menu-old.cs" Line="1" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.squidX PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
