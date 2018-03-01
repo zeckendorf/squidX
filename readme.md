@@ -1,6 +1,6 @@
-## Squid for Everyone!
+# Squid for Everyone!
 
-### About
+## About
 This is the open-source C# [(mono)](http://www.mono-project.com/) implementation 
 of Squid, a twin-stick [shmup](https://en.wikipedia.org/wiki/Shoot_%27em_up) I 
 developed a few years ago with a [friend](http:/stevegregory.me). You may 
@@ -10,13 +10,13 @@ project takes on a new life every couple of years as a way to learn a new
 platform or language by porting it &mdash; to spread the love, it's here on
 github so anyone can use it to get started making their own game.
 
-### Premise
+## Premise
 You are Squid &mdash; a cargo shuttle trapped in a space warzone! With no
 weapons to speak of, the only option you have is to outmaneuver your enemies
 by redirecting enemy fire back into them. Supporting up to 4-player local
 co-op, stay alive as long as you can to rack up the high score.
 
-### Requirements & Setup
+## Requirements & Setup
 
 Originally built with XNA 3.0, this port uses on Mono 5.8 with
 [Monogame](http://www.monogame.net/) 3.6. YMMV on a given operating system,
@@ -50,13 +50,13 @@ sudo ./monogame-sdk.run
 ~~~~
 
 
-### Screenshots
+## Screenshots
 
 ![Menu Screen](https://i.imgur.com/wSChBhJ.png)
 ![Gameplay](https://i.imgur.com/RsvWSDm.png)
 ![Game Over](https://i.imgur.com/jAoZf1Y.png)
 
-### License
+## License
 © 2018 &mdash; Sam Zeckendorf
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
