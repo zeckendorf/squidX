@@ -16,6 +16,40 @@ weapons to speak of, the only option you have is to outmaneuver your enemies
 by redirecting enemy fire back into them. Supporting up to 4-player local
 co-op, stay alive as long as you can to rack up the high score.
 
+### Requirements & Setup
+
+Originally built with XNA 3.0, this port uses on Mono 5.8 with
+[Monogame](http://www.monogame.net/) 3.6. YMMV on a given operating system,
+but for Debian based linux such as Ubuntu, you'll need the following to develop
+
+* mono-complete
+* libopenal-dev
+* referenceassemblies-pcl 
+
+```
+sudo apt-get install libopenal-dev 
+sudo apt-get install mono-runtime
+sudo apt-get install referenceassemblies-pcl
+
+```
+
+You'll also need Monodevelop 6 specifically for Monogame 3.6, so grab it:
+
+```
+wget https://github.com/cra0zy/monodevelop-run-installer/releases/download/6.2.0.1778-1/monodevelop-6.2.0.1778-1.run
+chmod +x monodevelop-6.2.0.1778-1.run
+sudo ./monodevelop-6.2.0.1778-1.run
+```
+
+And finally monogame itself:
+
+```
+wget http://www.monogame.net/releases/v3.6/monogame-sdk.run
+chmod +x monogame-sdk.run
+sudo ./monogame-sdk.run
+```
+
+
 ### Screenshots
 
 ![Menu Screen](https://i.imgur.com/wSChBhJ.png)
