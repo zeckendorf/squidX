@@ -3,8 +3,8 @@
 ### About
 This is the open-source C# [(mono)](http://www.mono-project.com/) implementation 
 of Squid, a twin-stick [shmup](https://en.wikipedia.org/wiki/Shoot_%27em_up) I 
-developed a few years ago with a friend. You may remember it from its tenure as 
-an Xbox360
+developed a few years ago with a [friend](stevegregory.me). You may remember 
+it from its tenure as an Xbox360
 [gem](https://www.engadget.com/2011/02/25/xbox-live-indie-gems-squid/). This
 project takes on a new life every couple of years as a way to learn a new
 platform or language by porting it &mdash; to spread the love, it's here on
