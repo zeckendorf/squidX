@@ -28,7 +28,7 @@ but for Debian based linux such as Ubuntu, you'll need the following to develop
 
 ~~~~
 sudo apt-get install libopenal-dev 
-sudo apt-get install mono-runtime
+sudo apt-get install mono-complete
 sudo apt-get install referenceassemblies-pcl
 ~~~~
 
@@ -53,8 +53,8 @@ sudo ./monogame-sdk.run
 ## Screenshots
 
 ![Menu Screen](https://i.imgur.com/wSChBhJ.png)
-![Gameplay](https://i.imgur.com/RsvWSDm.png)
-![Game Over](https://i.imgur.com/jAoZf1Y.png)
+![Gameplay](https://i.imgur.com/WyJXHPf.png)
+![Game Over](https://i.imgur.com/UvDDbs5.png)
 
 ## License
 © 2018 &mdash; Sam Zeckendorf
