@@ -297,9 +297,9 @@ namespace squidX
         {
             if (!active)
             {
-                if (p.oldGamePadState.IsButtonUp(Microsoft.Xna.Framework.Input.Buttons.LeftTrigger))
+                if (p.oldGamePadState.IsButtonUp(Microsoft.Xna.Framework.Input.Buttons.Y))
                 {
-                    if (p.gamePadState.IsButtonDown(Microsoft.Xna.Framework.Input.Buttons.LeftTrigger))
+                    if (p.gamePadState.IsButtonDown(Microsoft.Xna.Framework.Input.Buttons.Y))
                         active = true;
                 }
 
@@ -307,8 +307,8 @@ namespace squidX
             }
             if (active)
             {
-                if (p.oldGamePadState.IsButtonDown(Microsoft.Xna.Framework.Input.Buttons.LeftTrigger))
-                    if (p.gamePadState.IsButtonUp(Microsoft.Xna.Framework.Input.Buttons.LeftTrigger))
+                if (p.oldGamePadState.IsButtonDown(Microsoft.Xna.Framework.Input.Buttons.Y))
+                    if (p.gamePadState.IsButtonUp(Microsoft.Xna.Framework.Input.Buttons.Y))
                         active = false;
 
 
@@ -438,8 +438,8 @@ namespace squidX
         {
             
            
-                if (p.oldGamePadState.IsButtonUp(Microsoft.Xna.Framework.Input.Buttons.RightTrigger))
-                    if (p.gamePadState.IsButtonDown(Microsoft.Xna.Framework.Input.Buttons.RightTrigger))
+                if (p.oldGamePadState.IsButtonUp(Microsoft.Xna.Framework.Input.Buttons.B))
+                    if (p.gamePadState.IsButtonDown(Microsoft.Xna.Framework.Input.Buttons.B))
                     {
 
 

@@ -243,9 +243,9 @@ namespace squidX
                 Menu.g.clearEverythingExceptCamera();
                 //figure out which controller selected single player because that'll be the one playing
                 PlayerIndex pi = PlayerIndex.One;
-                if (GamePad.GetState(PlayerIndex.Two).Buttons.A == ButtonState.Pressed) pi = PlayerIndex.Two;
-                if (GamePad.GetState(PlayerIndex.Three).Buttons.A == ButtonState.Pressed) pi = PlayerIndex.Three;
-                if (GamePad.GetState(PlayerIndex.Four).Buttons.A == ButtonState.Pressed) pi = PlayerIndex.Four;
+                if (GamePad.GetState(PlayerIndex.Two).Buttons.Y == ButtonState.Pressed) pi = PlayerIndex.Two;
+                if (GamePad.GetState(PlayerIndex.Three).Buttons.Y == ButtonState.Pressed) pi = PlayerIndex.Three;
+                if (GamePad.GetState(PlayerIndex.Four).Buttons.Y == ButtonState.Pressed) pi = PlayerIndex.Four;
                 //Start game
                 Vector2 location = new Vector2(Menu.g.width / 2, Menu.g.height / 2);
                 Player p = new Player(0, location, Menu.g, SquidGame.playerKeyControls[0], pi);
@@ -991,12 +991,12 @@ namespace squidX
         {
             if (keyboardState.IsKeyDown(Keys.Enter)) return true;
             foreach (GamePadState gps in gamePadStates)
-                if (gps.Buttons.A == ButtonState.Pressed) return true;
+                if (gps.Buttons.Y == ButtonState.Pressed) return true;
             return false;
         }
         public bool anybPressed()
         {
-            if (keyboardState.IsKeyDown(Keys.Back)) return true;
+			if (keyboardState.IsKeyDown(Keys.Back)) return true;
             foreach (GamePadState gps in gamePadStates)
                 if (gps.Buttons.B == ButtonState.Pressed) return true;
 
@@ -1007,7 +1007,7 @@ namespace squidX
         public bool anyStartPressed()
         {
             foreach (GamePadState gps in gamePadStates)
-                if (gps.Buttons.Start == ButtonState.Pressed) return true;
+				if (gps.Buttons.RightShoulder == ButtonState.Pressed) return true;
             return false;
         }
 

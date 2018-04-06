@@ -24,8 +24,8 @@ namespace squidX
 		Texture2D linePixel;
 
 		// global parameters for the game
-		public int width = 1280;
-		public int height = 720;
+		public int width = 640;
+		public int height = 480;
 		public int score = 0;
 		public int highScore = 0;
 		public int scoreMultiplier = 1;
@@ -322,16 +322,8 @@ namespace squidX
 
 			foreach (Player p in players)
 			{
-				if (p.gamePadState.IsButtonDown(Buttons.A)) Console.WriteLine("A");
-				if (p.gamePadState.IsButtonDown(Buttons.B)) Console.WriteLine("B");
-				if (p.gamePadState.IsButtonDown(Buttons.X)) Console.WriteLine("X");
-				if (p.gamePadState.IsButtonDown(Buttons.Y)) Console.WriteLine("Y");
-				if (p.gamePadState.IsButtonDown(Buttons.Back)) Console.WriteLine("back");
-				if (p.gamePadState.IsButtonDown(Buttons.Start)) Console.WriteLine("start");
-				if (p.gamePadState.IsButtonDown(Buttons.LeftShoulder)) Console.WriteLine("ls");
-				if (p.gamePadState.IsButtonDown(Buttons.RightShoulder)) Console.WriteLine("rs");
-
-				if (p.gamePadState.IsButtonDown(Buttons.Start) && p.oldGamePadState.IsButtonUp(Buttons.Start))
+				
+				if (p.gamePadState.IsButtonDown(Buttons.RightShoulder) && p.oldGamePadState.IsButtonUp(Buttons.RightShoulder))
 					if (st == state.running) st = state.paused;
 					else if (st == state.paused)
 					{
