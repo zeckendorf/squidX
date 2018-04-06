@@ -861,7 +861,7 @@ namespace squidX
 					//scoredisplay
 					spriteBatch.DrawString(font, "Score: " + score, new Vector2(60, 60), fontColor);
 					//spriteBatch.DrawString(font, "HighScore: " + highScore, new Vector2(width - 400, 60), fontColor);
-					spriteBatch.DrawString(font, "Multiplier: x" + scoreMultiplier, new Vector2(60, height - 20), fontColor);
+					spriteBatch.DrawString(font, "Multiplier: x" + scoreMultiplier, new Vector2(60, height - 50), fontColor);
 					//endscoredisplay
 
 
