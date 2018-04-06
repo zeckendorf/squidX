@@ -997,7 +997,7 @@ namespace Xbox360Game
             level = 1;
             counter = 0;
             score = 0;
-            MediaPlayer.Stop();
+            lMediaPlayer.Stop();
             MediaPlayer.Play(menuSong);
         }
 

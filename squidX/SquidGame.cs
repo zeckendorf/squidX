@@ -24,8 +24,8 @@ namespace squidX
 		Texture2D linePixel;
 
 		// global parameters for the game
-		public int width = 640;
-		public int height = 480;
+		public int width = 1280;
+		public int height = 720;
 		public int score = 0;
 		public int highScore = 0;
 		public int scoreMultiplier = 1;
@@ -140,8 +140,8 @@ namespace squidX
 
 			if (fullscreen)
 			{
-				this.graphics.PreferredBackBufferWidth = width;//GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
-				this.graphics.PreferredBackBufferHeight = height; //GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+				this.graphics.PreferredBackBufferWidth = width;
+				this.graphics.PreferredBackBufferHeight = height;
 				this.graphics.IsFullScreen = true;
 				//presentParams.SwapEffect = SwapEffect.Flip;
 			}
@@ -319,7 +319,18 @@ namespace squidX
 					st = state.running;
 				}
 			}
+
 			foreach (Player p in players)
+			{
+				if (p.gamePadState.IsButtonDown(Buttons.A)) Console.WriteLine("A");
+				if (p.gamePadState.IsButtonDown(Buttons.B)) Console.WriteLine("B");
+				if (p.gamePadState.IsButtonDown(Buttons.X)) Console.WriteLine("X");
+				if (p.gamePadState.IsButtonDown(Buttons.Y)) Console.WriteLine("Y");
+				if (p.gamePadState.IsButtonDown(Buttons.Back)) Console.WriteLine("back");
+				if (p.gamePadState.IsButtonDown(Buttons.Start)) Console.WriteLine("start");
+				if (p.gamePadState.IsButtonDown(Buttons.LeftShoulder)) Console.WriteLine("ls");
+				if (p.gamePadState.IsButtonDown(Buttons.RightShoulder)) Console.WriteLine("rs");
+
 				if (p.gamePadState.IsButtonDown(Buttons.Start) && p.oldGamePadState.IsButtonUp(Buttons.Start))
 					if (st == state.running) st = state.paused;
 					else if (st == state.paused)
@@ -327,6 +338,7 @@ namespace squidX
 						InGameMenu.displayInstructions = false;
 						st = state.running;
 					}
+			}
 
 
 			if (st == state.running || st == state.gameOver || st == state.intro)
@@ -724,7 +736,7 @@ namespace squidX
 		protected override void Draw(GameTime gameTime)
 		{
 			GraphicsDevice.Clear(Color.Black);
-			spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.NonPremultiplied, null, null, null, null, cam.Transform);
+			spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.Additive, null, null, null, null, cam.Transform);
 
 		
 			if (st == state.splash)
@@ -823,12 +835,15 @@ namespace squidX
 					pe.Draw(spriteBatch);           //Draw Particles
 					if (renderSpringGrid) springGrid.Draw(spriteBatch); // draw spring
 				}
-				if (st == state.paused)
-					Menu.updateDrawInGameMenu(spriteBatch);
+
 
 				spriteBatch.End();
 				spriteBatch.Begin(); //HUD
 									 //healthbars
+
+				if (st == state.paused)
+					Menu.updateDrawInGameMenu(spriteBatch);
+				
 				if (st == state.running || st == state.intro || st == state.paused)
 				{
 					foreach (Player p in players)
@@ -853,8 +868,8 @@ namespace squidX
 					#endregion
 					//scoredisplay
 					spriteBatch.DrawString(font, "Score: " + score, new Vector2(60, 60), fontColor);
-					spriteBatch.DrawString(font, "HighScore: " + highScore, new Vector2(900, 60), fontColor);
-					spriteBatch.DrawString(font, "Multiplier: x" + scoreMultiplier, new Vector2(60, 660), fontColor);
+					//spriteBatch.DrawString(font, "HighScore: " + highScore, new Vector2(width - 400, 60), fontColor);
+					spriteBatch.DrawString(font, "Multiplier: x" + scoreMultiplier, new Vector2(60, height - 20), fontColor);
 					//endscoredisplay
 
 

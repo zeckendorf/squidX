@@ -59,7 +59,6 @@
     <Compile Include="DuoEnemy.cs" />
     <Compile Include="BlueShip.cs" />
     <Compile Include="TriangleShip.cs" />
-    <Compile Include="Menu-old.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.manifest" />

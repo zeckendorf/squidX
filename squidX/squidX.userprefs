@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{5A9E49A9-A851-4842-BF26-F93326AF8E96}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Menu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Player.cs">
     <Files>
-      <File FileName="SquidGame.cs" Line="295" Column="7" />
-      <File FileName="Menu.cs" Line="259" Column="1" />
-      <File FileName="Player.cs" Line="53" Column="25" />
+      <File FileName="SquidGame.cs" Line="20" Column="31" />
+      <File FileName="Menu.cs" Line="42" Column="44" />
+      <File FileName="Player.cs" Line="104" Column="37" />
       <File FileName="HealthBar.cs" Line="42" Column="224" />
-      <File FileName="Powerups.cs" Line="70" Column="123" />
-      <File FileName="Game.cs" Line="782" Column="46" />
-      <File FileName="Menu-old.cs" Line="1" Column="13" />
+      <File FileName="Powerups.cs" Line="437" Column="36" />
+      <File FileName="Game.cs" Line="1000" Column="13" />
+      <File FileName="Menu-old.cs" Line="606" Column="46" />
+      <File FileName="SpriteElement.cs" Line="60" Column="69" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.squidX PreferredExecutionTarget="MonoDevelop.Default" />
